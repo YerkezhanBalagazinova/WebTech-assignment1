@@ -1,0 +1,36 @@
+#pageTitle {
+    font-family: "Arial Black", Arial, sans-serif;
+    color: black;
+    font-weight:600;
+    text-align:center;
+}
+body {
+    background-color: #e1ecf8;
+    color: #333333;
+    font-family:Verdana, sans-serif;
+}
+.sectionTitle {
+    font-family:Georgia, serif;
+    color:#0d2e5c;
+}
+#profile-card {
+    width: 500px;
+    height: 500px;
+    margin:30px;
+    padding:30px;
+    border:3px solid #07326d;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(231, 242, 251);
+    float: right;
+}
+img {
+    max-width: 250px;
+    border-radius: 20px;
+}
+a {
+    color:#265ead
+}
+a:hover {
+    color:#45056b
+}

@@ -1,0 +1,59 @@
+table{
+    border-collapse: collapse;
+    width:70%;
+    margin: 30px auto;
+}
+th,td{
+    border:2px solid black;
+    padding:10px;
+    text-align: center;
+}
+th{
+    background-color: rgb(214, 250, 227);
+    color:black;
+}
+#header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr:nth-child(even){
+    background-color: aliceblue;
+}
+.highest-grade{
+    background-color: rgb(241, 78, 78);
+    font-weight: 600;
+}
+.feedback-form {
+    width: 400px;
+    margin: 30px auto;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 15px;
+}
+#form-title {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color:rgb(65, 111, 131);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+input[type="submit"]:hover {
+    background-color:rgb(34, 82, 123);
+}
+.radio-group {
+    margin-bottom: 20px;
+}
