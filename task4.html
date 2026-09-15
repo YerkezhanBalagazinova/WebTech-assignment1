@@ -8,6 +8,12 @@
 </head>
 <body>
     <h1 id="header">Student grades</h1>
+    <div class="NavBar">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="task3.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+    </div>
     <table>
         <tr>
             <th>Name</th>
@@ -61,10 +67,15 @@
             <option value="other">Other</option>
         </select>
         <p>Are you sure that everything is right?</p>
-        <input type="radio" id="yes" name="conformation" value="yes">
-        <label for="yes">Yes</label>
-         <input type="radio" id="no" name="conformation" value="no">
-        <label for="no">No</label>
+
+        <div class="radio-group">
+            <input type="radio" id="yes" name="confirmation" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="confirmation" value="no">
+            <label for="no">No</label>
+        </div>
+<label for="comments">Comments:</label>
+<textarea id="comments" name="comments" rows="5"></textarea>
         <label for="comments">Comments:</label>
         <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
         <input type="submit" value="Submit">
